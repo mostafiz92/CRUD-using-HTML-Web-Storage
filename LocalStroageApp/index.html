@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Raihan School and College</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse">
+		  <div class="container">
+			<div class="navbar-header">
+			  <h2 style="text-align: center; color: #cee877; font-variant: small-caps;">School Management System</h2>
+			</div>
+		  </div>
+		</nav>
+	</header>
+	<section class="product-aria">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="productAdd-box">
+                        <h3 style="color:orangered">Raihan School and College</h3>
+						<h2 id="headStatus">Add New Student</h2>
+						<div class="col-md-8">
+							<div class="form-group">
+								<ul class="proField-list">
+									<li><label>Name:</label></li>
+									<li><input type="text" id="stName" name="stName" class="form-control product-field" placeholder="Name" required="required" /></li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<ul class="proField-list">
+									<li><label>Id:</label></li>
+									<li><input type="text" id="prPrice" name="prPrice" class="form-control product-field" placeholder="eg. xxxxxx" required="required" /></li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<ul class="proField-list">
+									<li><label>Contact No:</label></li>
+									<li><input type="text" id="prWeight" name="prWeight" class="form-control product-field" placeholder="eg. 000000000" required="required" /></li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<ul class="proField-list">
+									<li><label>Email:</label></li>
+									<li><input type="text" id="prDes" name="prDes" class="form-control product-des" placeholder="mail@mail.com" /></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="show-image">
+								<img id="holdImg" src="images/placeholder.png" class="img-responsive" alt="" />
+							</div>
+							<div class="getImage-box">
+								<input type="file" accept="image/x-png,image/gif,image/jpeg" name="prImage" id="prImage" />
+								<div class="getImg-status">
+									+ add image here
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<ul class="proField-list">
+								<li>&nbsp;</li>
+								<li><button id="addBtn" class="btn btn-success addBtn">Add Student</button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="showProduct-table">
+						<table id="productTable" class="table table-responsive table-bordered">
+							<tr>
+								<th>Photo</th>
+								<th>Name</th>
+								<th>Id</th>
+								<th>Contact No</th>
+								<th>Email</th>
+								<th>Edit</th>
+								<th>Delete</th>
+							</tr>
+						</table>
+						<button id="clearBtn" class="btn btn-danger">All Clear</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
